@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background: url("../img/first-bg.jpg") no-repeat center top / cover;
+    height: 700px;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-top: 52px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu li:not(:last-child) {
+    margin-right: 40px;
+    margin-bottom: 3px;
+}
+
