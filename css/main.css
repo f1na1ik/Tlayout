@@ -2,11 +2,13 @@ body{
     font-family: Arial, sans-serif;
     margin: 0px;
     padding: 0px;
+    /*ПРОВЕРКА*/
+    font-color: #222222;
 }
 
 header {
     background: url("../img/first-bg.jpg") no-repeat center top / cover;
-    height: 700px;
+    padding-bottom: 160px;
 }
 
 div {
@@ -50,3 +52,113 @@ div {
     margin-bottom: 3px;
 }
 
+.titles__first {
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 205px;
+}
+
+h1 {
+    color: white;
+    font-size: 75px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.button {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #484543;
+    background: #fed136;
+    padding: 25px 0;
+    border-radius: 4px;
+    display: block;
+    font-size: 18px;
+    width: 240px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+}
+
+.title h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 0;
+}
+
+.title p {
+    font-size: 16px;
+    color: #777777;
+    margin-top: 15px;
+}
+
+.title {
+    margin-top: 115px;
+    text-align: center;
+}
+
+.services__item h3{
+    font-size: 18px;
+    margin: 20px 0 13px;
+}
+
+.services__item p {
+    font-size: 14px;
+    color: #777777;
+    margin: 0;
+    width: 265px;
+    line-height: 1.55em;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 75px;
+}
+
+.services__item {
+    text-align: center;
+}
+
+.portfolio {
+    background-color: #f7f7f7;
+    margin-top: 230px;
+}
+
+.portfolio_screens {
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 160px;
+}
+
+h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h5 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.history__components p {
+    color: #777777;
+    width: 285px;
+}
+
+.aboutus__history {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.history__components h4 {
+
+}
