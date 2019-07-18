@@ -15,6 +15,32 @@ li {
     padding: 0;
 }
 
+h2 {
+    font-size: 24px;
+    line-height: 24px;
+    color: #212020;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 24px;
+    color: #212020;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+h2,h3,h4,h5 {
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    letter-spacing: 0.1px;
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     max-width: 1170px;
     margin: 0 auto;
@@ -199,6 +225,11 @@ header {
     border: 1px solid #ffc222;
     border-right: 20px solid #ffc222;
     position: relative;
+    transition: .3s background-color;
+}
+
+.default-button:hover {
+    background-color: rgba(255, 194, 34, 0.5);
 }
 
 .default-button:after {
@@ -262,8 +293,97 @@ header {
 
 /*---------------------Наши услуги-----------------------------------*/
 
+.services {
+    padding: 50px 0px 30px;
+}
 
+.services__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.services__title-box {
+    max-width: 520px;
+    padding-left: 140px;
+    position: relative;
+}
+
+.services__title-box:before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background-color: #ffc222;
+    left: 0;
+    top: 11%;
+    transform: translateY(-11%);
+}
+
+.services-text {
+    padding-top: 18px;
+}
+
+.services__button {
+    color: #373636;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    padding: 5px 38px;
+    border: 3px solid #e6e6e6;
+}
+
+/*----------Наши услуги, 3 карточки------------*/
+
+.services__items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+}
+
+.services__item {
+    max-width: 360px;
+    text-align: center;
+    padding: 30px 0 40px;
+    box-shadow: 2px 4px 20px 0px #d6d6d6;
+    position: relative;
+    min-height: 375px;
+}
+
+.services__item + .services__item {
+    margin-left: 30px;
+}
+
+.services__item-text {
+    display: inline-block;
+    padding: 24px 30px 80px;
+
+}
+
+.services__item img {
+    padding-bottom: 25px;
+}
+
+.services__item-button {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+}
+
+.services__item-button .default-button {
+    color: #373636;
+}
+
+.services__item-button .default-button:after {
+    color: #ffffff;
+}
+
+.services__item-link {
+    color: #050505;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 1px solid #050505;
+    margin-right: 60px;
+}
 
 
 /*----------------------------------------------------------------------------*/
