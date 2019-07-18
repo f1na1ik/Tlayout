@@ -330,6 +330,12 @@ header {
     letter-spacing: 0.25px;
     padding: 5px 38px;
     border: 3px solid #e6e6e6;
+    transition: .3s background-color, border;
+}
+
+.services__button:hover {
+    background-color: #ffd10017;
+    border: 3px solid #feff0061;
 }
 
 /*----------Наши услуги, 3 карточки------------*/
@@ -355,7 +361,7 @@ header {
 
 .services__item-text {
     display: inline-block;
-    padding: 24px 30px 80px;
+    padding: 24px 6% 80px;
 
 }
 
@@ -382,8 +388,15 @@ header {
     color: #050505;
     font-family: 'Roboto', sans-serif;
     border-bottom: 1px solid #050505;
+    line-height: 11px;
     margin-right: 60px;
+    transition: .3s;
 }
 
+.services__item-link:hover {
+    color: #b30505;
+    border-bottom: 1px solid #ff001e;
+}
 
 /*----------------------------------------------------------------------------*/
+
