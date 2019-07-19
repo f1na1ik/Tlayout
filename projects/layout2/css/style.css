@@ -294,7 +294,7 @@ header {
 /*---------------------Наши услуги-----------------------------------*/
 
 .services {
-    padding: 50px 0px 30px;
+    padding: 40px 0px 30px;
 }
 
 .services__top {
@@ -303,13 +303,13 @@ header {
     align-items: center;
 }
 
-.services__title-box {
+.title-box {
     max-width: 520px;
     padding-left: 140px;
     position: relative;
 }
 
-.services__title-box:before {
+.title-box:before {
     content: "";
     position: absolute;
     height: 2px;
@@ -419,19 +419,24 @@ header {
 
 .about__inner {
     max-width: 555px;
+    padding-left: 15px;
 }
 
 .about__button {
     padding-top: 40px;
 }
 
-.about__button {
-    padding-top: 40px;
+.about__button  a{
     color: #ffffff;
 }
 
 .about__button a:visited {
     color: #ffffff;
+}
+
+.about__button .default-button {
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .about__button .default-button:after {
@@ -441,3 +446,188 @@ header {
 /*--------------------------------------------------------------------------------------------*/
 
 /*--------------------Получить консультацию / consultation------------------------------------*/
+
+.consultation {
+    margin: 40px 0 40px;
+}
+
+.consultation__title-box p {
+    padding-top: 12px;
+    padding-bottom: 40px;
+}
+
+.consultation__inner {
+    background-image: url(../img/consultation-human.png);
+    min-height: 460px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.consultation__form-box {
+    max-width: 850px;
+}
+
+.consultation__form-inner {
+    display: flex;
+}
+
+.consultation__form-left {
+    max-width: 260px;
+    padding-right: 30px;
+    width: 100%;
+}
+
+.consultation__form-right {
+    max-width: 555px;
+    width: 100%;
+    transform: translateY(-3px);
+}
+
+.consultation__form-inner input,
+.consultation__form-inner textarea,
+.consultation__form-inner label {
+    display: block;
+    width: 100%;
+    transition: .3s;
+}
+
+.consultation__form-inner input:hover,
+.consultation__form-inner input:focus,
+.consultation__form-inner textarea:hover,
+.consultation__form-inner textarea:focus {
+    border: 2px solid #98980380;
+}
+
+.consultation__form-inner label {
+    font-family: 'Roboto', sans-serif;
+    line-height: 36px;
+    color: #282828;
+}
+
+.consultation__form-inner label {
+    margin-bottom: 2px;
+}
+
+.consultation__form-inner input {
+    margin-bottom: 7px;
+    margin-top: -3px;
+    outline: none;
+    height: 40px;
+    padding: 0 10px;
+
+    border: 1px solid #dedede;
+    box-shadow: 1px 1px 10px 2px #e4e4e4;
+}
+
+
+/*--------------Настройка кнопки селекта-----------------*/
+
+.jq-selectbox.jqselect {
+    display: block;
+    width: 100%;
+}
+
+.consultation__form-left .jq-selectbox__select {
+    padding-left: 15px;
+    height: 40px;
+    border: 1px solid #dedede;
+    box-shadow: 1px 1px 10px 2px #e4e4e4;
+    transition: .3s;
+}
+
+.consultation__form-left .jq-selectbox__select:hover {
+    border: 2px solid #98980380;
+}
+
+.consultation__form-left .jq-selectbox__trigger-arrow:before {
+    position: absolute;
+    font-family: 'icomoon';
+    content: "\f105";
+    right: 0;
+    top: 0;
+    right: 15px;
+    transform: rotate(90deg);
+}
+
+.consultation__form-left .jq-selectbox__dropdown {
+    width: 100%;
+    margin: 2px 0 0;
+    padding: 0;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+    box-shadow: 0 2px 10px rgba(0,0,0,.2);
+}
+
+.consultation__form-left .jq-selectbox li {
+    min-height: 18px;
+    padding: 5px 15px 5px;
+    color: #231F20;
+    cursor: pointer;
+}
+
+.consultation__form-left .jq-selectbox__select-text {
+    cursor: pointer;
+}
+
+.consultation__form-left .jq-selectbox li {
+    transition: .4s;
+}
+
+.consultation__form-left .jq-selectbox li.selected {
+    background-color: #b0b8be;
+    color: #FFF;
+}
+
+.consultation__form-left .jq-selectbox li:hover {
+    background-color: #f1cb6ad9;
+    color: #FFF;
+    border: 2px solid #98980380;
+}
+
+.consultation__form-left .jq-selectbox li.disabled {
+    color: #AAA;
+}
+
+.consultation__form-left .jq-selectbox li.disabled:hover {
+    background: none;
+    cursor: pointer;
+}
+.consultation__form-left .jq-selectbox li.optgroup {
+    font-weight: bold;
+}
+
+.consultation__form-left .jq-selectbox li.optgroup:hover {
+    background: none;
+    color: #231F20;
+    cursor: pointer;
+}
+
+.consultation__form-left .jq-selectbox li.option {
+    padding-left: 25px;
+    cursor: pointer;
+}
+
+/*---------------------------------------------------------------*/
+
+.consultation__form-inner textarea {
+    outline: none;
+    padding: 10px;
+    height: 200px;
+    resize: none;
+
+    border: 1px solid #dedede;
+}
+
+.consultation__form-right button {
+    background-color: transparent;
+    color: #282828;
+    cursor: pointer;
+    padding-right: 25px;
+    padding-left: 25px;
+    float: right;
+    margin-top: 37px;
+}
+
+/*---------------------------------------------------------------------*/
+
+/*---------------------------ФЫВФЫВФЫВФЫВ--------------------------------*/
