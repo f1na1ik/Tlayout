@@ -400,3 +400,44 @@ header {
 
 /*----------------------------------------------------------------------------*/
 
+/*----------------------About / о компании------------------------------------*/
+
+.about {
+    background: url("../img/about-fon.jpg") center / cover no-repeat;
+    min-height: 300px;
+}
+
+.about__title-box h2 {
+    color: #ffffff;
+    padding: 35px 0 25px;
+}
+
+.about__title-box p {
+    color: #d3d2d2;
+    line-height: 24px;
+}
+
+.about__inner {
+    max-width: 555px;
+}
+
+.about__button {
+    padding-top: 40px;
+}
+
+.about__button {
+    padding-top: 40px;
+    color: #ffffff;
+}
+
+.about__button a:visited {
+    color: #ffffff;
+}
+
+.about__button .default-button:after {
+    color: #000000;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+
+/*--------------------Получить консультацию / consultation------------------------------------*/
