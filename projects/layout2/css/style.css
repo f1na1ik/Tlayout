@@ -757,6 +757,12 @@ header {
 .news__blog {
     max-width: 260px;
     width: 100%;
+    transition: .4s;
+}
+
+.news__blog:hover {
+    box-shadow: 0px 2px 18px -2px #00000073;
+    padding-left: 3px;
 }
 
 .news__blog:first-child {
@@ -783,10 +789,12 @@ header {
 
 .news__blog h4 {
     padding: 12px 0;
+    transition: .4s;
 }
 
 .news__blog p {
     color: #5e5e5e;
+    transition: .4s;
 }
 
 .news__slider .slick-button {
