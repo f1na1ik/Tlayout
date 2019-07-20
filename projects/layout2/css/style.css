@@ -458,7 +458,7 @@ header {
 
 .consultation__inner {
     background-image: url(../img/consultation-human.png);
-    min-height: 460px;
+    min-height: 450px;
     background-repeat: no-repeat;
     background-position: bottom right;
 }
@@ -630,4 +630,54 @@ header {
 
 /*---------------------------------------------------------------------*/
 
-/*---------------------------ФЫВФЫВФЫВФЫВ--------------------------------*/
+/*---------------------------Преимущества / advantages--------------------------------*/
+
+.advantages {
+    min-height: 285px;
+    background-image: url("../img/advantages-fon.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 65px;
+    padding-top: 55px;
+}
+
+.advantages-item p {
+    line-height: 24px;
+    color: #d3d2d2;
+}
+
+.advantages-item h3 {
+    color: #ffffff;
+    padding-top: 65px;
+    padding-bottom: 10px;
+}
+
+.advantages__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.advantages-item {
+    max-width: 350px;
+    text-align: center;
+    position: relative;
+}
+
+.advantages-item + .advantages-item {
+    margin-left: 10px;
+}
+
+.advantages-item:before {
+    content: "\f00c";
+    position: absolute;
+    font-family: 'icomoon';
+    font-size: 14px;
+    padding: 9px 11px;
+    color: #fff;
+    border: 2px solid #ffc222;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
