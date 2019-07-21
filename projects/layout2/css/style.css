@@ -72,7 +72,8 @@ header {
     background-color: #303030;
 }
 
-.header__button {
+.header__button,
+.footer__button {
     float: right;
     font-size: 16px;
     line-height: 36px;
@@ -82,7 +83,8 @@ header {
     position: relative;
 }
 
-.header__button:before {
+.header__button:before,
+.footer__button:before {
     content: "\f0b1";
     font-family: 'icomoon';
     position: absolute;
@@ -697,7 +699,7 @@ header {
 /*-------------------------Новости / news-------------------------*/
 
 .news {
-    margin-bottom: 35px;
+    margin-bottom: 110px;
     background-color: #f9f9f9;
 }
 
@@ -832,3 +834,57 @@ header {
 /*------------------------------------------------------------------*/
 
 /*------------------ФУТЕР / footer---------------------------------------*/
+
+.footer__content {
+    min-height: 340px;
+    background-color: #595959;
+}
+
+.footer__info {
+    max-width: 380px;
+    width: 100%;
+}
+
+.footer__info h5{
+    padding-bottom: 16px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+.footer__info p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #d3d2d2;
+    padding-bottom: 28px;
+}
+
+.footer__button {
+    float: left;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 29px;
+}
+
+.footer__map iframe{
+    max-width: 630px;
+    max-height: 250px;
+}
+
+
+
+.footer__copy {
+    min-height: 42px;
+    background-color: #303030;
+}
+
+.copy__text {
+    text-align: center;
+    font-size: 12px;
+    line-height: 42px;
+    color: #ffffff;
+}
