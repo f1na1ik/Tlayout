@@ -1,0 +1,36 @@
+@media (max-width: 660px) {
+    .header__button {
+        float: none;
+    }
+    .header__contacts {
+        text-align: center;
+    }
+    .menu ul {
+        display: none;
+    }
+}
+
+@media (max-width: 655px) {
+    .header__button {
+        display: block;
+    }
+    .header__button:before {
+        display: none;
+    }
+    .header__btn-menu{
+        display: block;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .header__button:before {
+        display: block;
+    }
+}
+
+@media (max-width: 383px) {
+    .header__email {
+        padding-right: 7px;
+    }
+}

@@ -957,3 +957,11 @@ header {
 #animatedModal input[type="submit"]:hover {
     box-shadow: 1px 1px 15px 1px #afafaf;
 }
+
+/*-----------------------Adaptive----------------------*/
+
+.header__btn-menu {
+    display: none;
+    font-size: 28px;
+}
+
