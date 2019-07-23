@@ -927,3 +927,33 @@ header {
     color: #ffffff;
 }
 
+/*----------------------Модальное окно--------------------------------*/
+
+#animatedModal {
+    width: 300px;
+    cursor: unset;
+}
+
+#animatedModal input {
+    display: block;
+    width: 100%;
+    outline: none;
+    height: 40px;
+    border: 1px solid #E6E6E6;
+    padding: 0 10px;
+    font-family: 'Roboto', sans-serif;
+    transition: .3s;
+}
+
+#animatedModal input + input {
+    margin-top: 25px;
+}
+
+#animatedModal input[type="submit"] {
+    background-color: #ffc222;
+    cursor: pointer;
+}
+
+#animatedModal input[type="submit"]:hover {
+    box-shadow: 1px 1px 15px 1px #afafaf;
+}
