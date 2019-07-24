@@ -10,6 +10,27 @@
     }
     .menu ul {
         display: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-top: 17px;
+        /*Этот выпадающий список может прятаться под следующий экран, а следующий экран
+        это у нас слайдер. Там накидано много позиционирования, по этому присваиваем
+        z-index, чтоб точно быть увереным, что ul-ка будет выше. */
+        z-index: 50;
+    }
+    .menu li {
+        display: block;
+        text-align: center;
+    }
+    .menu a {
+        display: block;
+        background-color: #ffc222;
+        border-top: 2px solid #FFFFFF;
+        border-bottom: 2px solid #FFFFFF;
+    }
+    .menu li + li {
+        padding-left: 0;
     }
 }
 
@@ -32,5 +53,11 @@
 @media (max-width: 383px) {
     .header__email {
         padding-right: 7px;
+    }
+}
+
+@media (min-width: 660px) {
+    .menu ul {
+        display: block !important;
     }
 }
