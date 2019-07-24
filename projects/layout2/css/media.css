@@ -5,6 +5,9 @@
     .header__contacts {
         text-align: center;
     }
+    .header__btn-menu{
+        display: block;
+    }
     .menu ul {
         display: none;
     }
@@ -16,9 +19,6 @@
     }
     .header__button:before {
         display: none;
-    }
-    .header__btn-menu{
-        display: block;
     }
 
 }

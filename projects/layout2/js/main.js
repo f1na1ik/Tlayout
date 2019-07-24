@@ -7,8 +7,9 @@ $(function () {
 
     $('select').styler();
 
-    $('.header__btn-menu').on('click', function () {
-        $('.menu ul').SlideToggle();
+    $('.header__btn-menu').click(function () {
+        $('.menu ul').slideToggle();
     });
+
 });
 
