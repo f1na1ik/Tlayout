@@ -4,18 +4,6 @@
     }
 }
 
-@media (max-width: 970px) {
-    .footer__inner {
-        display: block;
-    }
-    .footer__info {
-        margin-bottom: 40px;
-    }
-    .footer__map iframe {
-        max-width: 100%;
-    }
-}
-
 @media (max-width: 956px) {
     .services__items {
         display: block;
@@ -149,6 +137,17 @@
     }
     .menu li + li {
         padding-left: 0;
+    }
+    /*-------------------ФУТЕР------------------------*/
+    .footer__inner {
+        display: block;
+    }
+    .footer__info {
+        margin-bottom: 40px;
+    }
+    .footer__map iframe {
+        width: 100%;
+        max-width: 630px;
     }
 }
 

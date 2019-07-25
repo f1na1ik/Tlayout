@@ -965,3 +965,13 @@ header {
     font-size: 28px;
 }
 
+.footer__map {
+    max-width: 630px;
+    max-height: 250px;
+    width: 100%;
+}
+
+.footer__map iframe {
+    width: 100%;
+    max-width: 630px;
+}
